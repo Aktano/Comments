@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <title>Horde Square</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__left-part">
+                <nav class="header__nav nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link"><img src="./img/favicon.jpg" alt="logo.jpg"><h2>Horde Square</h2></a></li>
+                        <li class="nav__item"><a href="#" class="nav__link">Quick Actions</a></li>
+                        <li class="nav__item nav__item-active"><a href="#" class="nav__link">Forum</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__right-part">
+                <nav class="header__nav nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="" class="nav__link">Settings</a></li>
+                        <li class="nav__item"><a href="" class="nav__link">Messages</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main class="page">
+            <div class="page__post post">
+                <div class="post__heading">
+                    <h1>Заголовок поста</h1>
+                </div>
+                <div class="post__body">
+                    <div class="post__info info">
+                        <ul class="info__list">
+                            <li class="info__item"><h2 class="info__name">Dalliloule Nardieu</h2></li>
+                            <li class="info__item"><h2 class="info__date">09.03.2023</h2></li>
+                        </ul>
+                    </div>
+                    <div class="post__main-part main-part">
+                        <div class="main-part__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eaque excepturi fugit impedit laboriosam pariatur possimus quia veniam veritatis. Facilis fuga hic illo in incidunt ipsum iusto minima molestiae nam nemo officiis, possimus provident quaerat quibusdam, rem temporibus tenetur. Ab aliquam animi architecto consectetur consequuntur, debitis delectus deleniti ducimus eligendi error est ex illo ipsum magnam minima modi, odit porro quae quos repudiandae saepe tempora tenetur? Dolores iure iusto odio ratione repellendus sed. A amet animi aspernatur doloremque doloribus, earum eius eos ipsam iusto magni necessitatibus nesciunt non numquam odio porro quam repellendus sapiente sed sunt unde? Deserunt ducimus eos harum inventore necessitatibus omnis, perferendis quam tempora ut. Facilis hic maxime reiciendis, sint ullam unde voluptatibus. Molestiae, nobis, temporibus! Aliquid dolore eaque magni maxime nulla quae quibusdam quod tenetur ullam. Ad assumenda atque commodi consequatur corporis cupiditate debitis deleniti dolores doloribus exercitationem expedita ipsum laborum libero magnam maxime minima nemo neque nisi nostrum, perferendis perspiciatis qui quos repellat saepe similique sint ut, velit veniam vero voluptate. Animi aperiam asperiores beatae dicta dignissimos eligendi, explicabo fuga harum hic id illo ipsa, laborum libero maxime minus nemo praesentium quaerat repellendus sed ullam ut veniam, voluptates! Adipisci aperiam architecto asperiores at consectetur consequatur cum doloremque ducimus error eveniet facilis fugiat fugit illum iure labore laudantium, libero nam nisi officiis pariatur praesentium sed tempora tempore vel veniam vero voluptates. Assumenda exercitationem in ipsam iste perspiciatis quam quod rem repudiandae sit veniam! Amet eligendi ex facere mollitia nam pariatur quos ratione? Ab accusantium autem corporis culpa cupiditate, debitis deserunt dolorum eaque eveniet ex incidunt itaque iusto laudantium maxime, molestiae natus necessitatibus obcaecati porro, possimus quos repellat repudiandae sed sint temporibus voluptate. Animi aspernatur, quidem? Corporis dolore ducimus earum impedit iste magnam minima obcaecati officiis omnis, optio possimus quam reiciendis sit? Aliquam assumenda earum non possimus!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page__comments comments">
+                
+            </div>
+
+            <div class="page__form form">
+                <h1>Оставить комментарий:</h1>
+                <br>
+                <form class="form__body">
+                    <div class="form__group">
+                        <input type="text" class="form__control" id="comment-name" placeholder="Your name">
+                    </div>
+                    <div class="form__group">
+                        <input type="text" class="form__control" id="comment-body" placeholder="Your comment">
+                    </div>
+                    <div class="form__group">
+                        <input type="date" class="form__control" id="comment-date">
+                    </div>
+                    <div class="form__group button">
+                        <button type="submit" class="button__add-comment" id="comment-add">Add comment</button>
+                    </div>
+                    <div class="form__group error"></div>
+                </form>
+            </div>
+
+        </main>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./js/addcomment.js"></script>
+</body>
+</html>
